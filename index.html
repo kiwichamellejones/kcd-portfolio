@@ -3,113 +3,108 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-
-  <!-- Font Awesome CDN Link -->
-
-  <script src="https://kit.fontawesome.com/e7eafa587b.js" crossorigin="anonymous"></script>
-
-  <!-- External Stylesheet Link -->
-  
+  <title>Kiwi Jones | Portfolio</title>
   <link rel="stylesheet" href="style.css">
-  
 </head>
-
 <body>
 
-  <!-- Header Section -->
-  
-  <header>
-    <h1>Welcome to My Portfolio</h1>
-  </header>
+<nav class="nav">
+  <h2>KJ</h2>
+  <div>
+    <a href="#home">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
 
-  <!-- Main Section -->
-  
-  <main>
+<header id="home" class="hero">
+  <h1>Kiwi Jones</h1>
+  <p id="typewriter"></p>
 
-  <!-- About Section -->
-    
-    <section id="about">
-      <h2>About Me</h2>
-      <p>Hello! My name is Kiwi Jones, and I am a passionate web developer with a strong foundation in HTML, CSS, and JavaScript. With a keen eye for detail and a dedication to creating seamless user experiences, I have honed my skills through various personal and collaborative projects.
-
-      I am always eager to learn and stay updated with the latest trends and technologies in web development. My goal is to leverage my technical expertise and creative problem-solving abilities to build innovative web applications that make a positive impact.
-
-      In addition to my technical skills, I bring a collaborative spirit and a commitment to continuous improvement. I am excited to contribute to a dynamic team and grow my career in web development.</p>
-    </section>
-
-    <!-- Projects Section -->
-    
-    <section id="projects">
-      <h2>Projects</h2>
-      <!-- Add your projects here -->
-
-      <div class="project">
-  <h3>DevDiary</h3>
-  <p><strong>Description:</strong> DevDiary is a responsive personal blog platform designed for developers and tech enthusiasts to share their knowledge, insights, and experiences. The platform features an easy-to-use content management system for creating and managing blog posts, complete with categories, tags, and a comments section for reader interaction.</p>
-  <p><strong>Purpose:</strong> The primary purpose of DevDiary is to provide a space for developers to document their learning journey, share valuable resources, and engage with a community of like-minded individuals. It also serves as a personal portfolio to showcase writing skills and technical expertise.</p>
-  <p><strong>Technologies Used:</strong> 
-    <ul>
-      <li>HTML</li>
-      <li>CSS (Bootstrap)</li>
-      <li>JavaScript</li>
-      <li>Jekyll (Static Site Generator)</li>
-      <li>Netlify CMS (Content Management System)</li>
-    </ul>
+  <p class="sub">
+    Specializing in JavaScript, React, and full-stack web applications
   </p>
-  <p><strong>Demo:</strong> <a href="link-to-live-demo">Live Demo</a></p>
-  <p><strong>Source Code:</strong> <a href="https://github.com/yourusername/personal-blog">GitHub Repository</a></p>
-</div>
 
+  <a href="#projects" class="cta">View Projects</a>
+  <a href="images/Kiwi-Jones-Frontend-Developer-Resume.pdf" class="cta secondary">Download Resume</a>
+</header>
 
-     <div class="project">
-  <h3>WeatherWise</h3>
-  <p><strong>Description:</strong> WeatherWise is a weather forecast dashboard that provides real-time weather updates and forecasts for multiple locations. Users can search for current weather conditions and 5-day forecasts for any city worldwide, complete with detailed weather information and intuitive icons.</p>
-  <p><strong>Purpose:</strong> The primary purpose of WeatherWise is to offer users a reliable and easy-to-use tool for accessing weather information. It aims to provide accurate weather forecasts to help users plan their activities and stay informed about changing weather conditions.</p>
-  <p><strong>Technologies Used:</strong> 
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>React</li>
-      <li>OpenWeatherMap API</li>
-      <li>Netlify (Deployment)</li>
-    </ul>
+<section id="projects" class="section">
+  <h2>Projects</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <h3>BizConnect CRM</h3>
+      <p>Full-stack CRM application with secure authentication and data handling.</p>
+
+      <ul>
+        <li>JWT authentication system</li>
+        <li>RESTful API with Node.js</li>
+        <li>MongoDB data management</li>
+        <li>React front-end</li>
+      </ul>
+
+      <span>React • Node • Express • MongoDB • JWT</span>
+
+      <div class="buttons">
+        <a href="https://kchamelledesigns.github.io/bizconnect-crm/">Live</a>
+        <a href="https://github.com/kchamelledesigns/bizconnect-crm">Code</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Real Estate Calculator</h3>
+      <p>Investment analysis tool for calculating cash flow and ROI.</p>
+
+      <ul>
+        <li>Dynamic JavaScript calculations</li>
+        <li>User-friendly interface</li>
+        <li>Real-time financial insights</li>
+      </ul>
+
+      <span>HTML • CSS • JavaScript</span>
+
+      <div class="buttons">
+        <a href="https://kchamelledesigns.github.io/real-estate-calculator/">Live</a>
+        <a href="https://github.com/kchamelledesigns/real-estate-calculator">Code</a>
+      </div>
+    </div>
+
+    <div class="card coming">
+      <h3>Coming Soon</h3>
+      <p>New project currently in development.</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="section">
+  <h2>What I Bring</h2>
+  <ul>
+    <li>Strong HTML, CSS, JavaScript foundation</li>
+    <li>Full-stack project experience</li>
+    <li>Clean, responsive UI development</li>
+    <li>Problem-solving mindset</li>
+  </ul>
+</section>
+
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <p>
+    I build responsive web applications that solve real-world problems.
+    I enjoy turning ideas into functional products and continuously improving my development skills.
   </p>
-  <p><strong>Demo:</strong> <a href="link-to-live-demo">Live Demo</a></p>
-  <p><strong>Source Code:</strong> <a href="https://github.com/yourusername/weather-dashboard">GitHub Repository</a></p>
-</div>
+</section>
 
-      <div class="project">
-  <h3>BizConnect CRM</h3>
-  <p><strong>Description:</strong> BizConnect CRM is an online customer relationship management system designed to help businesses manage customer interactions, track sales, and organize customer data efficiently. The application includes secure login authentication, allowing only authorized users to access and manage customer information.</p>
-  <p><strong>Purpose:</strong> The primary purpose of BizConnect CRM is to provide businesses with a comprehensive tool for managing customer relationships, enhancing customer service, and streamlining business operations. It enables businesses to keep track of customer interactions, monitor sales activities, and improve overall productivity.</p>
-  <p><strong>Technologies Used:</strong> 
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript (React)</li>
-      <li>Node.js (Express.js)</li>
-      <li>MongoDB</li>
-      <li>JWT (JSON Web Tokens) for Authentication</li>
-      <li>Heroku (Deployment)</li>
-    </ul>
-  </p>
-  <p><strong>Demo:</strong> <a href="link-to-live-demo">Live Demo</a></p>
-  <p><strong>Source Code:</strong> <a href="https://github.com/yourusername/crm-application">GitHub Repository</a></p>
-</div>
+<section id="contact" class="section">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:kchamelledesigns@gmail.com">kchamelledesigns@gmail.com</a></p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/kiwichamelle-jones/">linkedin.com/in/kiwichamelle-jones</a></p>
+  <p>GitHub: <a href="https://github.com/kiwichamellejones">github.com/kiwichamellejones</a></p>
+</section>
 
-      
-    </section>
-    
-  </main>
-  <footer>
-    <p>&copy; 2024 K Chamelle Designs</p>
-  </footer>
-
-  <!-- External JavaScript Code Link -->
-  
-  <script src="script.js"></script>
-  
+<script src="script.js"></script>
 </body>
 </html>

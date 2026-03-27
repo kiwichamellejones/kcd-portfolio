@@ -1,46 +1,87 @@
-# My Portfolio
+# 🌐 Kiwi Jones Portfolio
 
-Welcome to My Web Development Portfolio! This repository showcases some of the projects I have worked on and highlights my skills and experience in web development.
+Welcome to my portfolio repository. This project showcases my work as a developer focused on building clean, responsive, and real-world web applications.
 
-## About Me
 
-Hello! My name is Kiwi Jones, and I am a passionate web developer with a strong foundation in HTML, CSS, and JavaScript. With a keen eye for detail and a dedication to creating seamless user experiences, I have honed my skills through various personal and collaborative projects.
+## 🚀 About Me
 
-I am always eager to learn and stay updated with the latest trends and technologies in web development. My goal is to leverage my technical expertise and creative problem-solving abilities to build innovative web applications that make a positive impact.
+I’m a front-end developer specializing in **JavaScript, React, and full-stack web applications**.
 
-In addition to my technical skills, I bring a collaborative spirit and a commitment to continuous improvement. I am excited to contribute to a dynamic team and grow my career in web development.
-
-## Projects
-
-### [Project 1: Project Name](link-to-project)
-- **Description**: Briefly describe the project, its purpose, and the technologies used.
-- **Technologies**: List the technologies used (e.g., HTML, CSS, JavaScript, React, Node.js).
-- **Features**: Highlight some key features of the project.
-- **Demo**: Include a link to a live demo or screenshots.
-
-### [Project 2: Project Name](link-to-project)
-- **Description**: Briefly describe the project, its purpose, and the technologies used.
-- **Technologies**: List the technologies used (e.g., HTML, CSS, JavaScript, React, Node.js).
-- **Features**: Highlight some key features of the project.
-- **Demo**: Include a link to a live demo or screenshots.
-
-### [Project 3: Project Name](link-to-project)
-- **Description**: Briefly describe the project, its purpose, and the technologies used.
-- **Technologies**: List the technologies used (e.g., HTML, CSS, JavaScript, React, Node.js).
-- **Features**: Highlight some key features of the project.
-- **Demo**: Include a link to a live demo or screenshots.
-
-## Skills
-
-- **Languages**: HTML, CSS, JavaScript
-- **Frameworks and Libraries**: React, Node.js, Express
-- **Tools and Platforms**: Git, GitHub, VS Code, npm
-- **Other Skills**: Responsive Design, RESTful APIs, Debugging, Problem-Solving
-
-## Contact
-
-Feel free to reach out to me via [email](mailto:kchamelledesigns@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/kiwichamelle-jones/).
+I build responsive, user-focused interfaces and enjoy turning ideas into functional products. I’m continuously improving my skills while working toward becoming a well-rounded full-stack developer.
 
 ---
 
-Thank you for visiting my portfolio! I look forward to connecting with you and exploring potential opportunities.
+## 💼 Projects
+
+### 🔹 BizConnect CRM
+
+Full-stack customer relationship management (CRM) application designed to manage client data, workflows, and authentication in a secure environment.
+
+**Key Features:**
+
+* Implemented secure authentication using JWT
+* Built a RESTful API with Node.js and Express
+* Structured and managed data with MongoDB
+* Developed a responsive front-end using React
+
+**Tech Stack:** React • Node.js • Express • MongoDB • JWT
+**Live Demo:** [kchamelledesigns.github.io/bizconnect-crm](https://kchamelledesigns.github.io/bizconnect-crm)
+**Repository:** [github.com/kchamelledesigns/bizconnect-crm](https://github.com/kchamelledesigns/bizconnect-crm)
+
+---
+
+### 🔹 Real Estate Calculator
+
+A real-world investment analysis tool that calculates cash flow, ROI, and key financial metrics for property evaluation.
+
+**Key Features:**
+
+* Built dynamic calculations using JavaScript
+* Designed a clean, user-friendly interface
+* Provides real-time financial insights
+
+**Tech Stack:** HTML • CSS • JavaScript
+**Live Demo:** [kiwichamellejones.github.io/kcd-portfolio](https://kiwichamellejones.github.io/kcd-portfolio/)
+**Repository:** [github.com/kiwichamellejones/kcd-portfolio](https://github.com/kiwichamellejones/kcd-portfolio) 
+
+---
+
+### 🔹 Coming Soon
+
+I’m actively working on new projects to expand my skill set and continue building real-world applications.
+
+---
+
+## 🛠 Skills
+
+**Languages:**
+HTML • CSS • JavaScript
+
+**Frameworks & Technologies:**
+React • Node.js • Express • MongoDB • REST APIs
+
+**Core Strengths:**
+Responsive Design • Problem Solving • Debugging • Clean UI Development
+
+---
+
+## 💼 What I Bring
+
+* Strong foundation in front-end development
+* Experience building full-stack applications
+* Ability to turn ideas into functional, real-world products
+* Focus on clean, responsive, and user-centered design
+
+---
+
+## 📫 Contact
+
+* 📧 Email: [kchamelledesigns@gmail.com](mailto:kchamelledesigns@gmail.com)
+* 💼 LinkedIn: [linkedin.com/in/kiwichamelle-jones/](https://www.linkedin.com/in/kiwichamelle-jones/)
+* 💻 GitHub: [github.com/kchamelledesigns](https://github.com/kchamelledesigns)
+
+---
+
+## 🙌 Thanks for Visiting
+
+I’m actively seeking opportunities to contribute, learn, and grow as a developer. If you're looking for someone who is motivated, detail-oriented, and continuously improving, I’d love to connect.
